@@ -1,4 +1,4 @@
-# Uniform Next.js Starter
+# Uniform Next.js Starter - Minimo version
 
 A clean, elegant Next.js starter project integrated with [Uniform](https://uniform.dev) headless CMS. This project demonstrates modern web development patterns with comprehensive documentation, making it perfect for learning, prototyping, or building production websites.
 
@@ -8,7 +8,7 @@ A clean, elegant Next.js starter project integrated with [Uniform](https://unifo
 - **📝 Uniform CMS**: Visual editing with drag-and-drop components
 - **📱 Mobile-First**: Responsive design that works on all devices
 - **⚡ Performance**: Optimized for speed and SEO with image transformations
-- **🧩 Component Library**: Reusable, well-documented components with variants
+- **🧩 Component Library**: No component library
 - **📚 Content Management**: Structured Article and Author content types
 - **🖼️ Asset Optimization**: Automatic image resizing and optimization
 - **🎮 Component Playground**: Interactive sandbox for testing and learning
@@ -44,21 +44,12 @@ A clean, elegant Next.js starter project integrated with [Uniform](https://unifo
 - **`RichText`** - Advanced rich text content with formatting
 - **`CTA`** - Call-to-action buttons with styling options
 
-#### **🃏 Card Components**
-- **`CardGrid`** - Responsive grid layout for cards
-- **`Card`** - Basic content cards with title and description
-
 #### **🖼️ Media Components**
 - **`Image`** - Responsive images with optimization
 - **`ImageFeature`** - Image cards with icons and descriptions
 - **`ImageHero`** - Full-screen hero with background images
 - **`Video`** - Video player with title and description
 
-#### **📝 Article Components**
-- **`ArticleHeader`** - Article title, excerpt, metadata, and featured image
-- **`ArticleContent`** - Main article body with rich text formatting
-- **`ArticleTags`** - Display article tags with editable labels
-- **`ArticleAuthor`** - Author bio with avatar and social links
 
 #### **🧩 Navigation Components**
 - **`NavigationLink`** - Smart navigation links (desktop/mobile aware)
@@ -131,8 +122,6 @@ npm run lint          # Run ESLint
 ```
 src/
 ├── components/
-│   ├── article/        # Article-specific components
-│   ├── cards/          # Card components
 │   ├── content/        # Content components  
 │   ├── layout/         # Layout components
 │   ├── media/          # Image/video components
@@ -153,13 +142,6 @@ uniform-data/           # Uniform project data (components, content types, etc.)
 
 ### **Section Component Variants**
 The `Section` component demonstrates the power of variant-based design:
-
-- **`hero`** - Large, prominent styling for page headers
-- **`content`** - Standard content sections (default)
-- **`feature`** - Blue-themed feature highlights
-- **`testimonial`** - Green-themed customer quotes  
-- **`callout`** - Yellow-themed announcements
-- **`minimal`** - Compact styling for subtle content
 
 ## 🔗 Uniform Integration
 
